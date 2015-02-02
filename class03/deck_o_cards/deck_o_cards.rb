@@ -12,8 +12,17 @@ def deck_o_cards
     end
   end
 
-  p cards
-  
+  # p cards
+  cards.shuffle!
+  # p cards
+
+
+
+  return cards
 end
 
-deck_o_cards
+
+cards = deck_o_cards
+puts "The deck has #{cards.length} cards"
+puts
+puts "The top card is the #{cards[0][:value]} of #{cards[0][:suit]}"
