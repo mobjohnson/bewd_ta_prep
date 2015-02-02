@@ -1,0 +1,53 @@
+1. What is the return value of `boolean_hash[2 + 2 == 4]`?
+"It's true!"
+
+2. What is the return value of `boolean_hash["Peter" == "Martin"]`?
+"It's false"
+
+3. What is the return value of `boolean_hash[9 > 10]`?
+"It's false"
+
+4. What is the return value of `boolean_hash[0]`?
+nil
+
+5. What is the return value of `boolean_hash["Greg"]`?
+nil
+
+6. What is the return value of `boolean_hash[false||true]`?
+"It's true!"
+
+6. What is the return value of `boolean_hash[false||"Martin"]`?
+nil
+
+
+
+
+1. How would you access Martin's Github handle (i.e. the string "mobjohnson")?
+ users['Martin'][:github]
+
+2. How would you add the number 7 to Greg's favorite numbers?
+users['Greg'][:favorite_numbers] = users['Greg'][:favorite_numbers].push(7)
+
+3. How would you add yourself to the users hash?
+users['Bob'] = {github: 'bobhub', favorite_numbers: [42, 55]}
+
+
+4. How would you return the array of Peter's favorite numbers?
+users['Peter'][:favorite_numbers]
+
+5. How would you return the smallest of Martin's favorite numbers?
+
+small = users['Martin'][:favorite_numbers][0]
+users['Martin'][:favorite_numbers].each do |el|
+  puts el
+  small = el unless el > small
+end
+small
+
+6. How would you return an array of Greg's favorite numbers that are also even?
+
+even = []
+users['Greg'][:favorite_numbers].each do |num|
+  even << num if num % 2 == 0
+end
+even
