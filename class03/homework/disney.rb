@@ -43,6 +43,8 @@ characters.each do |char|
   end
 end
 
+two_chars = character.select { |char| char.include?(' ') }
+
 two_chars.each do |char|
   print char
   if char != two_chars.last
