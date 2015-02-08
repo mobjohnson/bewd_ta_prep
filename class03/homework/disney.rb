@@ -3,19 +3,28 @@ characters = ["Mickey Mouse", "Aladdin", "Snow White", "Peter Pan", "Simba", "Mu
 
 # - Write code that:
 #   - Prints a random character
-puts characters[rand(characters.length)]
+
+# puts characters[rand(characters.length)]
+
+      puts characters.sample
 
 #   - Prints the index of "Elsa"
 puts characters.index('Elsa')
 #   - Prints the fifth character (In this case it's Simba)
 puts characters[4]
 #   - Prints a list of all the character names on one line, with each name separated by a pipe: |
-characters.each do |char|
-  print char
-  if char != characters.last
-    print ' | '
-  end
-end
+
+# characters.each do |char|
+#   print char
+#   if char != characters.last
+#     print ' | '
+#   end
+# end
+
+
+      puts characters.join(' | ')
+
+      puts characters * " | "
 
 
 
@@ -36,19 +45,25 @@ m_chars.each do |char|
 end
 
 #   - Prints the first names of all the characters with two word names (Mickey, Snow, Peter, Donald, Shere, Prince, Jiminy)
-two_chars = []
-characters.each do |char|
-  if char.include?(' ')
-    two_chars << char
-  end
-end
+# two_chars = []
+# characters.each do |char|
+#   if char.include?(' ')
+#     two_chars << char
+#   end
+# end
 
-two_chars = character.select { |char| char.include?(' ') }
+# two_chars = character.select { |char| char.include?(' ') }
 
-two_chars.each do |char|
-  print char
-  if char != two_chars.last
-    print ', '
+# two_chars.each do |char|
+#   print char
+#   if char != two_chars.last
+#     print ', '
+#   end
+# end
+
+characters.each do |name|
+  if name.split.count == 2
+    puts name.split[0]
   end
 end
 

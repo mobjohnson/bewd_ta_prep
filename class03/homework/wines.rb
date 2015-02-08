@@ -34,4 +34,5 @@ wine_cellar.map { |wine| wine[:type]}.uniq
 wine_cellar.select { |wine| wine[:label].include?(' ') }
 
 #   6. Returns an array with the labels of the wines that a type of Pinot Noir
-wine_cellar.select { |wine| wine[:type] == 'Pinot Noir'}
+pinot_wines = wine_cellar.select { |wine| wine[:type] == 'Pinot Noir'}
+pinot_wines.map { |wine| wine[:label]}
