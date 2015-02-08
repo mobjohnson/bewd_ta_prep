@@ -30,8 +30,29 @@ class ScrabbleWord
       'y' => 4,
       'z' => 10
     }
+    @word = word
+    @score = 0
+  end
 
-    # keep going...
+  def word
+    @word
+  end
+
+  def word=(word)
+    @word = word
+  end
+
+  # def score
+  #   @score
+  # end
+
+  def score
+    word.each_char { |char| @score += @points[char] }
+    @score
+  end
+
+  def multiplier_score(mult)
+    mult * @score
   end
 
 end
