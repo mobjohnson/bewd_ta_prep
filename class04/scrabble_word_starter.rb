@@ -35,7 +35,7 @@ class ScrabbleWord
   end
 
   def word
-    @word
+    @word.downcase
   end
 
   def word=(word)
@@ -46,9 +46,21 @@ class ScrabbleWord
   #   @score
   # end
 
+  # def score
+  #   word.each_char { |char| @score += @points[char] }
+  #   @score
+  # end
+
   def score
-    word.each_char { |char| @score += @points[char] }
-    @score
+    word_array = word.split(//)
+    puts word_array
+    score_array = word_array.map do |char| 
+      @points[char] 
+    end
+    score_array.each do |score|
+      @score += score
+    end
+    return @score
   end
 
   def multiplier_score(mult)
@@ -56,6 +68,8 @@ class ScrabbleWord
   end
 
 end
+
+zebra = ScrabbleWord.new('Zebra')
 
 
 binding.pry
