@@ -15,22 +15,22 @@ class Dog < ActiveRecord::Base
   validate :puppy_must_have_cute_name
 
   def puppy_must_have_cute_name
-    if is_puppy? && !(self.name[-1] == 'y' || self.name[-2,2] == 'ie')
+    if is_puppy? && name[-1] != 'y' && self.name[-2,2] != 'ie')
       errors.add(:age, "is not sufficiently adorable")
     end
   end
 
   def age_in_dog_years
-    self.age * 7
+    age * 7
   end
 
   def is_puppy?
-    self.age < 2
+    age < 2
   end
 
   def age!
     self.age += 1
-    self.save
+    save
   end
 
 end
