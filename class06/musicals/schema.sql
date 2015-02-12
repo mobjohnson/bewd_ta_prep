@@ -17,15 +17,15 @@ CREATE TABLE songs(
   musical_id INTEGER REFERENCES musicals(id)
 );
 
--- DROP TABLE IF EXISTS characters;
--- CREATE TABLE characters(
---   id SERIAL PRIMARY KEY,
---   name VARCHAR(100)
--- );
+DROP TABLE IF EXISTS characters;
+CREATE TABLE characters(
+  id SERIAL PRIMARY KEY,
+  name VARCHAR(100)
+);
 
--- DROP TABLE IF EXISTS performances;
--- CREATE TABLE performances(
---   id SERIAL PRIMARY KEY,
---   song_id INTEGER REFERENCES songs(id),
---   character_id INTEGER REFERENCES characters(id)
--- );
+DROP TABLE IF EXISTS performances;
+CREATE TABLE performances(
+  id SERIAL PRIMARY KEY,
+  song_id INTEGER REFERENCES songs(id),
+  character_id INTEGER REFERENCES characters(id)
+);

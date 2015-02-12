@@ -1,5 +1,7 @@
 require_relative './musical'
 
+
+Song.destroy_all
 Musical.destroy_all
 
 Musical.create(
@@ -24,3 +26,5 @@ who_am_i = Song.create(title: "Who am I?", musical: les_mis)
 # one_day_more.characters << jean
 # one_day_more.characters << marius
 # who_am_i.characters << jean
+
+binding.pry
