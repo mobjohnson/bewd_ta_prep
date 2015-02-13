@@ -23,4 +23,4 @@ g = Painting.create(title: "Guernica", artist: pp)
 
 
 
-binding.pry
+# binding.pry
