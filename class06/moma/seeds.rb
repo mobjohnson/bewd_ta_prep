@@ -21,4 +21,6 @@ sr = Painting.create(title: "Starry Night", artist: pp)
 mm = Painting.create(title: "Marilyn Monroe", artist: aw)
 g = Painting.create(title: "Guernica", artist: pp)
 
+
+
 binding.pry
