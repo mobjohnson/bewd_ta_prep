@@ -3,13 +3,13 @@ require 'sinatra/reloader'
 require 'pry'
 
 list = [
-  {:item => 'fouton', :price => 100, :location => 'Arlington'},
-  {:item => 'unicycle', :price => 25, :location => 'Silver Spring'}
+  # {:item => 'fouton', :price => 100, :location => 'Arlington'},
+  # {:item => 'unicycle', :price => 25, :location => 'Silver Spring'}
 ]
 listing = {}
 
 
-get '/' do
+get '/index' do
   @list = list
   erb :index
 end
@@ -25,5 +25,8 @@ post '/create' do
   location = params[:location]
   listing = {item: item, price: price, location: location}
   list.push(listing)
+
+# binding.pry
+
   redirect :index
 end
