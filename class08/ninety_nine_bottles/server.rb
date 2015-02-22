@@ -11,7 +11,7 @@ get '/verse/:bottles' do
   erb :verse
 end
 
-get 'refrain/:bottles' do
+get '/refrain/:bottles' do
    @bottles = params[:bottles].to_i
    @next = @bottles - 1
    erb :refrain
