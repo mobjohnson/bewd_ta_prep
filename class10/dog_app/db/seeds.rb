@@ -5,3 +5,7 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+Dog.create({name: 'Joe Joe', image_url: 'http://www.dogbreedinfo.com/images24/CollieRoughSasha2YearsOldPurebredDog.jpg'})
+Dog.create({name: 'Shep', image_url: 'https://www.petfinder.com/wp-content/uploads/2012/11/147083304-dogs-home-alone-all-day-632x475.jpg'})
+
