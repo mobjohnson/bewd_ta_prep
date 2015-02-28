@@ -26,13 +26,24 @@ class DogsController < ApplicationController
   end
 
   def update
-
+    @dog = Dog.find(params[:id])
+    if @dog.update(dog_params)
+      redirect_to @dog
+    else
+      render :edit
+    end
   end
 
   def destroy
-
+    @dog = Dog.find(params[:id])
+    @dog.destroy
+    redirect_to dogs_url
   end
 
+  private
 
+  def dog_params
+    params.require(:dog).permit(:name, :image_url, :age)
+  end
 
 end
