@@ -9,7 +9,8 @@ class EntriesController < ApplicationController
   end
 
   def create
-
+    Entry.create({author: params[:author], photo_url: params[:photo_url], date_taken: params[:date_taken]})
+    redirect_to '/'
   end
 
   def show
