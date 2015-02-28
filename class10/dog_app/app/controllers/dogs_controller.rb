@@ -15,12 +15,14 @@ class DogsController < ApplicationController
   end
 
   def show
-
+    @dog = Dog.find(params[:id])
+    render :show
   end
 
 
   def edit
-
+    @dog = Dog.find(params[:id])
+    render :edit
   end
 
   def update

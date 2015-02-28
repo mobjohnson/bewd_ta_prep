@@ -9,6 +9,8 @@ Rails.application.routes.draw do
   get "/dogs", to: 'dogs#index'
   get "/dogs/new", to: 'dogs#new'
   post "/dogs", to: 'dogs#create'
+  get "/dogs/:id", to: 'dogs#show'
+  get "dogs/:id/edit", to: 'dogs#edit'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

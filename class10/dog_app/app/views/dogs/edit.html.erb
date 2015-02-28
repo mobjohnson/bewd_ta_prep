@@ -1,0 +1,21 @@
+<h1>Edit a Dog</h1>
+
+
+<form action='/dogs' method='PATCH'>
+  <input name='authenticity_token' type='hidden' value='<%= form_authenticity_token %>' />
+  <label>
+    Name:
+    <input type='text' name='name' value='<%= @dog.name %>'/>
+  </label>
+  <label>
+    Image URL:
+    <input type='text' name='image_url' value='<%= @dog.image_url %>'/>
+  </label>
+   <label>
+    Age:
+    <input type='text' name='age' value='<%= @dog.age %>'/>
+  </label>   
+
+  <button>Submit!</button>
+
+</form>
