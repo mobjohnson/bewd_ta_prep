@@ -1,6 +1,6 @@
-class CreateEntities < ActiveRecord::Migration
+class CreateEntries < ActiveRecord::Migration
   def change
-    create_table :entities do |t|
+    create_table :entries do |t|
       t.string :author
       t.text :photo_url
       t.string :date_taken

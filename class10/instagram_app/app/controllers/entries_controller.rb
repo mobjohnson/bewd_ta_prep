@@ -1,10 +1,11 @@
-class EntriesController < ApplicationContoller
+class EntriesController < ApplicationController
+  
   def index
-    
+    @entries = Entry.all
   end
 
   def new
-
+    render :new
   end
 
   def create

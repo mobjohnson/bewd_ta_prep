@@ -1,0 +1,14 @@
+<h1>Instagram!</h1>
+
+<a href="/entries/new">Add a new Picture</a>
+
+<h3>Picture Index</h3>
+
+
+  <% @entries.each do |entry| %>
+
+    <p><%= entry.author %> took this pic on <%= entry.date_taken %></p>
+    <img src="<%= entry.photo_url %>">
+    <br>
+
+  <% end %>  
