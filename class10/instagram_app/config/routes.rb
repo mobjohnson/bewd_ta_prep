@@ -2,8 +2,17 @@ Rails.application.routes.draw do
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
+  get "/entries", to: 'entries#index'
+  get "/entries/new", to: 'entries#new'
+  post "/entries", to: 'entries#create'
+  get "/entries/:id", to: 'entries#show'
+  get "/entries/:id/edit", to: 'dentries#edit'
+  patch '/entries/:id/update', to: 'entries#update'
+  delete '/entries/:id', to: 'entries#destroy'
+
+
   # You can have the root of your site routed with "root"
-  # root 'welcome#index'
+  root 'entries#index'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
