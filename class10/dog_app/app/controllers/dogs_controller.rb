@@ -6,6 +6,10 @@ class DogsController < ApplicationController
   end
 
   def new
+    render :new
+  end
+
+  def create
 
   end
 
@@ -13,9 +17,6 @@ class DogsController < ApplicationController
 
   end
 
-  def create
-
-  end
 
   def edit
 
