@@ -12,6 +12,7 @@ Rails.application.routes.draw do
   # get "/dogs/:id", to: 'dogs#show'
   # get "/dogs/:id/edit", to: 'dogs#edit'
   # patch '/dogs/:id/update', to: 'dogs#update'
+  # delete
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
