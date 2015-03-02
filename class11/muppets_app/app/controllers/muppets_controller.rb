@@ -9,7 +9,7 @@ class MuppetsController < ApplicationController
   end
 
   def new
-
+    @muppet = Muppet.new
   end
 
   def create
