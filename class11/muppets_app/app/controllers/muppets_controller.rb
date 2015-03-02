@@ -22,7 +22,9 @@ class MuppetsController < ApplicationController
   end
 
   def update
-
+    @muppet = Muppet.find(params[:id])
+    @muppet.update(muppet_params)
+    redirect_to @muppet
   end
 
   def destroy
