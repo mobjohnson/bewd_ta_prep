@@ -5,7 +5,7 @@ class MuppetsController < ApplicationController
   end
 
   def show
-
+    @muppet = Muppet.find(params[:id])
   end
 
   def new
