@@ -18,7 +18,7 @@ class MuppetsController < ApplicationController
   end
 
   def edit
-
+    @muppet = Muppet.find(params[:id])
   end
 
   def update
