@@ -13,7 +13,8 @@ class MuppetsController < ApplicationController
   end
 
   def create
-
+    @muppet = Muppet.create(muppet_params)
+    redirect_to @muppet
   end
 
   def edit
@@ -26,6 +27,12 @@ class MuppetsController < ApplicationController
 
   def destroy
 
+  end
+
+  private
+
+  def muppet_params
+    params.require(:muppet).permit(:name, :image_url)
   end
 
 end
