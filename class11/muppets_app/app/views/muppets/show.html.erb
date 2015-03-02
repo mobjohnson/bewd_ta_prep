@@ -5,3 +5,10 @@
 <img src='<%= @muppet.image_url %>'>
 
 <p><%= link_to 'Edit', edit_muppet_path(@muppet) %></p>
+
+<!-- <p><%= link_to 'Destroy', muppet_path(@muppet), :method => :delete, :'data-confirm' => 'Are you sure?' %></p> -->
+
+<%= form_for @muppet, :method => :delete do |f| %>
+  <%= f.submit 'Destroy' %>
+
+<% end %>

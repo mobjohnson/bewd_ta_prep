@@ -28,7 +28,9 @@ class MuppetsController < ApplicationController
   end
 
   def destroy
-
+    @muppet = Muppet.find(params[:id])
+    @muppet.destroy
+    redirect_to muppets_url
   end
 
   private
