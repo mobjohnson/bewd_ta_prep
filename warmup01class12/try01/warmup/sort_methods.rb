@@ -1,3 +1,5 @@
+## Two sorting methods
+
 sen = "We are never ever ever getting back together"
 
 puts sen
