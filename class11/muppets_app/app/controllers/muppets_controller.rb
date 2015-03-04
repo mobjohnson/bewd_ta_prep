@@ -13,7 +13,7 @@ class MuppetsController < ApplicationController
   end
 
   def create
-    @muppet = Muppet.create(muppet_params)
+    @muppet = Muppet.new(muppet_params)
     if @muppet.save
       redirect_to @muppet
     else
