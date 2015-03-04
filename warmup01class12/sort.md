@@ -19,4 +19,18 @@ random_animals = ["porpoise", "camel", "lobster", "kangaroo", "wombat", "chamele
 * Return an array of the animals sorted by word length (low to high)
 * Return an array of the animals sorted alphabetically by the last character in the string
 
+###  Part 2: Reverse methods
+
+In the supplied sort_methods file...
+
+* Write a method reverse_words that given a string reverses the order of the words
+* Write a method reverse_each_word that given a string reverses the order of the words
+
+```ruby
+reverse_words("We are never ever ever getting back together")
+=> "together back getting ever ever never are We"
+
+reverse_each_word("We are never ever ever getting back together")
+=> "eW era reven reve reve gnitteg kcab rehtegot"
+```
 
