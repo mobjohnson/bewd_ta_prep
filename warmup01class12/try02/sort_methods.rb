@@ -14,9 +14,9 @@ puts string
 #   rev_string_array.join(' ')
 # end
 
-# def reverse_each_word(string)
-#   string.split(' ').map(&:reverse).join(' ')
-# end
+def reverse_each_word(string)
+  string.split(' ').map(&:reverse).join(' ')
+end
 
 
 
