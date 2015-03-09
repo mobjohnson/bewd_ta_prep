@@ -29,36 +29,19 @@ hammonds_mines = {
   }
 }
 
-# Access the depth of John Hammond's mine in Mexico.
-hammonds_mines[:mexico][:depth]
+# Return the depth of John Hammond's mine in Mexico.
 
-# Access the annual budget for Hammond's mine in Buenos Airies.
-hammonds_mines[:buenos_aires][:annual_budget]
+# Return the annual budget for Hammond's mine in Buenos Airies.
 
-# Access the stegosaurous.
-hammonds_mines[:nicaragua][:specimens][1]
+# Return the stegosaurous.
 
-# Access the dinosaur DNA specimens found in Nicaragua.
-hammonds_mines[:nicaragua][:specimens]
+# Return the dinosaur DNA specimens found in Nicaragua.
 
-# Access the "Parasaurolophus" specimen.
-hammonds_mines[:mexico][:specimens][1]
+# Return the "Parasaurolophus" specimen.
 
 # Your budget has been cut. Return an array, low_budget_mines, of only the mines with a budget at or below 100_000_000
 
-low_budget_mines = hammonds_mines.map do |country, mine|
-  if mine[:annual_budget] <= 100_000_000
-    mine
-  end
-end
-
 # Your budget has been re-upped and you've decided you're going to open a park using the DNA specimens found in Nicaragua (they're the most popular). But there's a big problem; It's a liability to create dinosaurs that can breed in the wild, so you have to add a dash of asexual frog dna to ensure they can't breed, BUT YOU CAN'T RUIN THE ORIGINAL SPECIMENS. Thankfully, you have an ace programmer, Dennis Nedrey, who tells you about a hot new array method called .map, which allows you to create a new array based on another. Create an array of dinosaurs specimens, each "with a dash of asexual frog DNA".
-
-frog_dna = hammonds_mines[:nicaragua][:specimens].map do |specimen|
-  specimen + " with a dash of asexual frog DNA"
-end
-
-
 
 
 
