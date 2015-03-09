@@ -48,7 +48,7 @@ hammonds_mines[:mexico][:specimens][1]
 # of only the mines with a budget at or below 100_000_000
 
 low_budget_mines = hammonds_mines.map do |country, mine|
-  if mine[:annual_budget] <= 100_000_000
+  if mine[:annual_budget] <= 1_000_000
     mine
   end
 end

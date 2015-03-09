@@ -33,6 +33,9 @@ hammonds_mines = {
   }
 }
 ```
+
+In the hammonds_mine.rb:
+
 * Return the depth of John Hammond's mine in Mexico.
 * Return the annual budget for Hammond's mine in Buenos Airies.
 * Return the stegosaurous.
