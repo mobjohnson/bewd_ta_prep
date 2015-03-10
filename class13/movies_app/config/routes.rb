@@ -6,6 +6,8 @@ Rails.application.routes.draw do
 
   resources :movies, only: [:index, :show]
 
+  resources :favorites, only: [:index, :create, :destroy]
+
   # You can have the root of your site routed with "root"
   # root 'welcome#index'
 
