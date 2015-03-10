@@ -12,7 +12,8 @@ class MoviesController < ApplicationController
   end
 
   def show
-    # @movie = Movie.find(params[:id])
+    response = HTTParty.get("http://www.omdbapi.com/?i=#{params[:id]}")
+    @result = JSON.parse(response.body)
   end
 
 end
