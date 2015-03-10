@@ -9,9 +9,10 @@
     <%= f.hidden_field :movie_id %>
     <%= f.hidden_field :title %>
     <%= f.submit 'Favorite :)' %>
-
   <% end %>
 
 <% else %>
-  This movie is a favorite!
+  <%= form_for @favorite, :method => :delete do |f| %>
+    <%= f.submit 'Unfavorite :(' %>
+  <% end %>
 <% end %>
