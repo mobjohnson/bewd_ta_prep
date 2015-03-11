@@ -57,3 +57,4 @@ You should demonstrate what you have learned. Functionality is key. You are goin
 
 Budget your time to allow at least some use of CSS. Your app will be judged by others by both functionality and appearance, so make sure you add some color and cat images!
 
+
