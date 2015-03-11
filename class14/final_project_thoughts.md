@@ -76,6 +76,6 @@ But, you are going to want to email the URL for your app to your friends. Your a
 
 
 
-*  ENGAGE!!!   *
+#  ENGAGE!!!   
 
 
