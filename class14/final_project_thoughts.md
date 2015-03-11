@@ -2,18 +2,21 @@
 
 **Objectives:**
 
-* Encourage
+* Get you thinking about your final project
+
+## Context - how much more new material will we learn in class?
+
+Not much! We will be going over User Authentication, but we have already gone over the overall Ruby on Rails capability you will use for your project
 
 ## What should my app be about?
 
 Somthing you care about, or that interests you!
 
-
 ## How do I get a sense of what I can accomplish?
 
 Look at what others have done!!!
 
-[General Assembly - Back End Web Development Projects](http:??http://gallery.ga.co/BEWD?metro=)
+[GA Gallery -> Back End Web Development Projects](http:??http://gallery.ga.co/BEWD?metro=)
 
 
 ## Where do I find APIs?
@@ -34,5 +37,7 @@ Maybe??? But unlikely. It is more important that you demonstrate your skills tha
 
 ## Does the appearance of my app matter?
 
-Oh yeah. Your app will be judged my functionality and appearance, so make sure you add some color and cat images!
+You should demonstrate what you have learned. Functionality is key. You are going to want to the URL for you app to you friends. Your app will be judged by functionality and appearance, so make sure you add some color and cat images!
+
+Budget your time to allow at least some use of CSS. Your app will be judged by others by both functionality and appearance, so make sure you add some color and cat images!
 
