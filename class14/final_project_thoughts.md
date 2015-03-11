@@ -9,13 +9,13 @@
 
 ## Context - how much more new material will we learn in class?
 
-Not much! We will be doing more work with APIs today, going over User Authentication on Monday and covering an Advanced topic on Wednesday. But, we have already covered the Ruby on Rails capability you will use for your project.
+Not much! We will be doing more work with APIs today, going over User Authentication on Monday and covering an Advanced topic on next Wednesday. But, we have already covered the Ruby on Rails functionality you will use for your project.
 
 
 
 ## What should my app be about?
 
-Somthing you care about, or that interests you!
+Somthing you care about, or something that interests you!
 
 
 
@@ -30,6 +30,7 @@ Look at what others have done!!!
 ## Where do I find APIs?
 
 [Programmable Web API Directory](http://www.programmableweb.com/apis/directory) 
+
 Check out the Browse by Category!!
 
 
@@ -39,11 +40,11 @@ Or try [Public APIs Directory](http://www.publicapis.com/).
 
 ## How complicated should my app be?
 
-Not very!!!
+Not too complicated!!!
 
 You can always take something simple and make it more complex. It is difficult to start with something that is complicated, and deliver a Minimum Viable Product.
 
-The goal for this class is to make something that works!!!
+The goal for this poject is to make something that works.
 
 You will be submitting your ideas, along with a description of scope of implementation for instructors to review prior to starting work.
 
@@ -57,7 +58,7 @@ Maybe??? But unlikely. It is more important that you demonstrate your skills tha
 
 ## Does the appearance of my app matter?
 
-You should demonstrate what you have learned in Back end Web Development. Functionality is key. 
+You should demonstrate what you have learned in Back End Web Development. Functionality is key. 
 
 But, you are going to want to email the URL for your app to your friends. Your app will be judged by others by both functionality and appearance, so budget your time to make sure you add some color and cat images!
 
@@ -65,6 +66,16 @@ But, you are going to want to email the URL for your app to your friends. Your a
 
 #When should I starting thinking about my Final Project?
 
-**ENGAGE!!!**
+
+
+
+
+
+
+
+
+
+
+**   ENGAGE!!!   **
 
 
