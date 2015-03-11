@@ -3,13 +3,13 @@
 
 **Objectives:**
 
-* Get you thinking about your final project
+* Get you thinking about your final project.
 
 
 
 ## Context - how much more new material will we learn in class?
 
-Not much! We will be workinf more with APIs today, going over User Authentication on Monday and covering an Advanced topic on Wednesday. But, we have already covered the Ruby on Rails capability you will use for your project
+Not much! We will be doing more work with APIs today, going over User Authentication on Monday and covering an Advanced topic on Wednesday. But, we have already covered the Ruby on Rails capability you will use for your project.
 
 
 
@@ -29,7 +29,11 @@ Look at what others have done!!!
 
 ## Where do I find APIs?
 
-[Programmable Web API Directory](http://www.programmableweb.com/apis/directory) or the [Public APIs Directory](http://www.publicapis.com/).
+[Programmable Web API Directory](http://www.programmableweb.com/apis/directory) 
+Check out the Browse by Category!!
+
+
+Or try [Public APIs Directory](http://www.publicapis.com/).
 
 
 
@@ -41,7 +45,7 @@ You can always take something simple and make it more complex. It is difficult t
 
 The goal for this class is to make something that works!!!
 
-You will be submitting your ideas, along with a description of scope of implementation for instructors.
+You will be submitting your ideas, along with a description of scope of implementation for instructors to review prior to starting work.
 
 
 
@@ -53,8 +57,14 @@ Maybe??? But unlikely. It is more important that you demonstrate your skills tha
 
 ## Does the appearance of my app matter?
 
-You should demonstrate what you have learned. Functionality is key. You are going to want to the URL for you app to you friends. Your app will be judged by functionality and appearance, so make sure you add some color and cat images!
+You should demonstrate what you have learned in Back end Web Development. Functionality is key. 
 
-Budget your time to allow at least some use of CSS. Your app will be judged by others by both functionality and appearance, so make sure you add some color and cat images!
+But, you are going to want to email the URL for your app to your friends. Your app will be judged by others by both functionality and appearance, so budget your time to make sure you add some color and cat images!
+
+
+
+#When should I starting thinking about my Final Project?
+
+**ENGAGE!!!**
 
 
