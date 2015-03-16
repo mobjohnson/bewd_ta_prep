@@ -1,0 +1,10 @@
+<h1>Find Animations</h1>
+
+<form action="<%= animations_path %>" method="get">
+  <label>Search: <input name="query"></label>
+  <button>Submit</button>
+</form>
+
+<% @results.each do |result| %>
+  <div><%= image_tag result['images']['fixed_width']['url'] %></div>
+<% end %>
